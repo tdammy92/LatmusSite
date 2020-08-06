@@ -1,0 +1,284 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+/* font-family: 'Lobster', cursive;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Rowdies', cursive;
+font-family: 'Shadows Into Light', cursive; */
+
+#title {
+    background-color: #210070;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: bold;
+}
+
+#welcomeTxt {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: right;
+}
+
+#logo {
+    /* font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem; */
+    max-height: 5px;
+    max-width: 5px;
+}
+
+#logoImg {
+    width: 180px;
+    height: 130px;
+    padding: 5px;
+}
+
+#links {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.dogImg {
+    width: 60;
+    /* Equal to rotateZ(45deg) */
+    transform: rotate(25deg);
+    position: absolute;
+    right: 35%;
+}
+
+.testy {
+    border-radius: 10%;
+    width: 30%;
+    margin: 20px;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.dwn-btn {
+    margin: 5% 3% 5% 0;
+}
+
+#feautureTxt {
+    text-align: justify;
+}
+
+
+/* styleing for icons */
+
+.fas {
+    color: #210070;
+    margin: 0 auto;
+    border-bottom: 1rem;
+}
+
+.fas:hover {
+    color: #8c70d4;
+    border-bottom: 1.2rem;
+}
+
+.far {
+    color: #210070;
+    margin: 0 auto;
+    border-bottom: 1rem;
+}
+
+.far:hover {
+    color: #8c70d4;
+    border-bottom: 1.2rem;
+}
+
+.fab {
+    color: #210070;
+}
+
+.fab:hover {
+    color: #8c70d4;
+}
+
+#ftr {
+    color: #210070;
+}
+
+#ftr:hover {
+    color: #8c70d4;
+    font-size: larger;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+#testimonials {
+    background-color: #210070;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/* press session */
+
+#press {
+    background-color: #210070;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.pres-logo {
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+.indi {
+    padding-top: 5%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.colPrice {
+    padding: 3% 2%;
+}
+
+#greenBox {
+    border: 1px solid white;
+    background-color: green;
+    color: white;
+    height: 100px;
+}
+
+#yellow {
+    border: 1px solid white;
+    background-color: yellow;
+    height: 100px;
+    color: white;
+}
+
+#blue {
+    border: 1px solid white;
+    background-color: blue;
+    height: 100px;
+    color: white;
+}
+
+.allsid {
+    margin: 0;
+}
+
+.sid1 {
+    border: 2px double #210070;
+    height: 400px;
+    margin-bottom: 3%;
+}
+
+.ola {
+    height: inherit;
+    float: left;
+    width: 300px;
+    padding: 2%;
+    margin: 0;
+}
+
+.txtside1 {
+    text-align: justify;
+    padding: 3% 3%;
+    width: 80%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.sid2 {
+    height: 400px;
+    background-color: #210070;
+    color: #210070;
+}
+
+#side22 {
+    background-color: aqua;
+    width: 50%;
+    height: 10%;
+    text-align: center;
+    margin-top: 10px;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+#act {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#cta {
+    background-color: #210070;
+    padding: 5% 2%;
+    text-align: center;
+    height: 400px;
+}
+
+#dbtn {
+    margin: 10px;
+}
+
+.ft {
+    color: white;
+    padding-bottom: 25px;
+    font-size: 3.5rem;
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+#footer {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 1.5rem;
+}
+
+.socIcon {
+    padding: 10px;
+    color: gray;
+}
+
+
+/* ending of all css filess */
