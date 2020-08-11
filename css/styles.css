@@ -26,30 +26,43 @@ h1 {
     text-align: right;
 }
 
-#logo {
-    /* font-weight: bold;
-  font-family: 'Roboto', sans-serif;
-  font-size: 2rem; */
-    max-height: 5px;
-    max-width: 5px;
-}
-
 #logoImg {
     width: 180px;
     height: 130px;
-    padding: 5px;
 }
 
-#links {
-    font-size: 2rem;
+.links {
+    font-size: 1.5rem;
     color: white;
     font-weight: bold;
+}
+
+.ioo {
+    height: 20%;
+}
+
+.ico {
+    background-color: #210070;
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 50%;
 }
 
 h2 {
     font-size: 3rem;
     line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
+}
+
+#intro {
+    text-align: center;
+    padding: 3%;
+}
+
+#dish {
+    border-radius: 20%;
+    width: 400px;
+    height: 350px;
 }
 
 .container-fluid {
@@ -151,6 +164,19 @@ p {
 }
 
 
+/* this code here is for the services */
+
+#Service {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.serv {
+    margin: 1%;
+}
+
+
 /* press session */
 
 #press {
@@ -223,7 +249,7 @@ p {
 .txtside1 {
     text-align: justify;
     padding: 3% 3%;
-    width: 80%;
+    width: 100%;
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
@@ -256,6 +282,14 @@ p {
     height: 400px;
 }
 
+.ct {
+    color: white;
+}
+
+.cti {
+    color: white;
+}
+
 #dbtn {
     margin: 10px;
 }
@@ -279,6 +313,9 @@ p {
     padding: 10px;
     color: gray;
 }
+
+
+/* test css */
 
 
 /* ending of all css filess */
